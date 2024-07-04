@@ -32,8 +32,7 @@ const flashCardSlice = createSlice({
       state.formData = action.payload;
     },
     addFlashCard: (state, action) => {
-      // adds a new flashcard to the beginning of the flashCards array and updates localStorage with the new array.
-      state.flashCards = [action.payload, ...state.flashCards];
+      state.flashCards.push(action.payload)
       localStorage.setItem("flashCards", JSON.stringify(state.flashCards));
     },
   },
