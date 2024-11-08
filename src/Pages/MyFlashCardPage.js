@@ -37,6 +37,7 @@ const MyFlashcardsPage = () => {
 
   // function to set the item to be deleted and show the delete confimation modal.
   const deleteFlashCard = (delClickedItem) => {
+    localStorage.removeItem("flashCards")
     setDelClickedItem(delClickedItem);
     setShowDeleteModal(true);
   };
