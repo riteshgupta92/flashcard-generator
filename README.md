@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Flashcard Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+The Flashcard Generator is a React-based application designed for users to create, manage, and study flashcards. The project emphasizes simplicity in managing flashcards, with a focus on a clean user interface using Tailwind CSS. It incorporates state management and routing to provide a smooth user experience for navigating and interacting with flashcards.
+
+
+## Features
+
+- **Flashcard Creation: Users can create flashcards with custom content.
+- **Storage with localStorage: Flashcards are stored in the browser's localStorage, allowing data persistence across sessions.
+- **Display Flashcards: The app refetches and displays newly created flashcards on the 'MyFlashcardsPage' immediately after creation.
+- **Form Management: It uses Formik for handling form submissions during flashcard creation.
+- **Navigation: Implemented using React Router for seamless page transitions.
+- **State Management: Redux manages the state of flashcards and other aspects of the application, making it scalable.
+
+## Technologies Used
+
+- **React for building the user interface.
+- **Tailwind CSS for responsive styling.
+- **Redux for state management.
+- **Formik for form handling.
+- **React Router for navigation.
+
+## Live Demo
+
+You can view the live version of the app here: [FlashCard Generator](https://flashcard-generator-6w7lq4f6x-riteshgupta92s-projects.vercel.app)
 
 ## Available Scripts
 
@@ -10,61 +34,3 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
